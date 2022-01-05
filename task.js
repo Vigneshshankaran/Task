@@ -134,4 +134,4 @@ to realise that people despise rodents and will never enjoy a meal cooked by him
 //commands
 
 db.movies.deleteOne({rating: 8.6})
-db.movies.update({rating: 8.8},{$set: {rating: 9}})
+db.movies.updateOne({rating: 8.8},{$set: {rating: 9}})
